@@ -1,13 +1,21 @@
-##   AWS-sentiment-detection
-/*add and display colors to readme.md files:*/
-/* Squar Colors: */
-- ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) `#f03c15`
-- ![#c5f015](https://via.placeholder.com/15/c5f015/c5f015.png) `#c5f015`
-- ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `#1589F0`
-/* Rounded(Circel) Colors: */
-- ![#f03c15](https://www.iconsdb.com/icons/download/color/f03c15/circle-16.png) `#f03c15`
-- ![#c5f015](https://www.iconsdb.com/icons/download/color/c5f015/circle-16.png) `#c5f015`
-- ![#1589F0](https://www.iconsdb.com/icons/download/color/1589F0/circle-16.png) `#1589F0`
-/* in the last one you can go to the website and change the shape to what ever you want 
-and copie the link the the img and add it to your README.md*/
+##   AWS-Sentiment-Detection
 
+### Sentiment Analysis
+Sentiment analysis models focus on polarity (positive, negative, neutral) but also on feeling and emotions (angry, happy, sad, etc), urgency (urgent, not urgent) and even intentions (interested, not interested).
+
+### Applications
+I could be convenient for product reviews, or maybe you want to process social-media posts about your company and track any changes to sentiment. 
+Applications of customizing this project for a spesific social media of factories could be beneficial in following aspects:
+- Analysing the products introduced by a company to users.
+- Assessing the popularity of products.
+- Find out the trend of the popularity.
+
+### Requirements:
+- Creating AWS credintial account. It would be free or you can pay for more services.
+- Installing required software and libraries like Boto3.
+
+### Boto3
+Boto3 is the name of python SDK for AWS. You use the aws sdk for python (boto3) to create, configure and manage aws services, such as amazon elastic compute cloud (amazon EC2) and amazon simple storage service (amazon S3).
+
+### Extract Data Form Instagram
+We used Apify as an instagram comment scrapper to extract data from Instagram comments for free. The limitation is that we could not get personal information of users. https://apify.com/
